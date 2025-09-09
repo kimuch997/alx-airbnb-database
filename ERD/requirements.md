@@ -92,4 +92,7 @@
 - Additional Indexes:
   - `email` in User table
   - `property_id` in Property and Booking tables
-  - `booking_id` in Booking and Payment tables
+  - `booking_id` in Booking and Payment tables\
+
+## Database Diagram
+![Airbnb ERD](./alx-airbnbclone-erd.drawio.png)
