@@ -23,3 +23,17 @@ This directory contains SQL scripts demonstrating the use of **INNER JOIN**, **L
 ## Files
 - `joins_queries.sql` → Contains all the SQL queries.
 - `README.md` → Documentation of the queries.
+
+## Subqueries
+
+This section demonstrates **non-correlated** and **correlated subqueries**.
+
+### 1. Non-Correlated Subquery
+Query to find properties where the **average rating > 4.0**:
+- Inner query calculates average rating per property.
+- Outer query selects properties with IDs returned by the subquery.
+
+### 2. Correlated Subquery
+Query to find users with **more than 3 bookings**:
+- For each user, the subquery counts their bookings.
+- The condition filters users with count > 3.
